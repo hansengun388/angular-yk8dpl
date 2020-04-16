@@ -21,4 +21,7 @@ export class AppComponent  {
 
   show : boolean = true;
 
+  user = {
+    nama:'abc'
+  };
 }
