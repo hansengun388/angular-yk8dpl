@@ -24,4 +24,9 @@ export class AppComponent  {
   user = {
     nama:'abc'
   };
+
+  Pesan = ' '
+  KlikButton(){
+    this.Pesan='Tombol Tertakan'
+  }
 }
